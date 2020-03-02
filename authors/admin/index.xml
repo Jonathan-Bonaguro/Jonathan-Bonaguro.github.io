@@ -23,40 +23,22 @@
     </item>
     
     <item>
-      <title>Display Jupyter Notebooks with academia</title>
+      <title>The Cline Center for Advanced Social Research</title>
       <link>/blog/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
-Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./academia_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to academia!&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to academia!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
-&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your academia website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
-hugo new  --kind post post/my-post
-cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter notebook
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Copy the contents of Untitled.md and append it to index.md:&lt;/span&gt;
-cat Untitled.md | tee -a index.md
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Remove the temporary file:&lt;/span&gt;
-rm Untitled.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with academia&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;what-is-the-cline-center&#34;&gt;What is the Cline Center?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One of the biggest challenges that data scientists, social scientists and humanists face is harnessing the power of raw data. The Cline Center for Advanced Social Research is positioned to expand your research capacities, giving voice to data by providing you with powerful tools to analyze it.
+We’re based at the University of Illinois at Urbana-Champaign, one of the world&amp;rsquo;s prominent computer and information science hubs and home to the National Center for Supercomputing Applications as well as one of the world’s leading engineering colleges. Working alongside major players in the Big Data ecosystem, we mine a wealth of outstanding information assets to help you solve the world’s most pressing problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Cline Center creates and makes available data derived from raw news sources from around the world. By connecting with data scientists and engineering disciplines, the center works to create structured data to improve understanding of issues such as conflict, democratic processes, and identity.&lt;/p&gt;
+&lt;p&gt;You can find out more detailed by visiting &lt;a href=&#34;https://clinecenter.illinois.edu/&#34;&gt;the Cline Center&amp;rsquo;s website&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;my-role-at-the-cline-center&#34;&gt;My Role at the Cline Center&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve spent two years working as both an intern and now an analyst at the Cline Center. My first two semesters, I worked as an intern on the Coup d&#39;État project while undertaking independent study courses under Professor &lt;a href=&#34;https://clinecenter.illinois.edu/people/salthaus&#34;&gt;Scott Althaus&lt;/a&gt; and working with Joseph Bajjalieh and Buddy Peyton, two members of the Data Analytics and Management team. After the first year, I moved into the role of a part time analysis, and have helped facilitate the expansion of the Coup d&#39;État project as well as working on improving the Cline Center&amp;rsquo;s event coding capabilities.&lt;/p&gt;
+&lt;h2 id=&#34;independent-study-courses&#34;&gt;Independent Study Courses&lt;/h2&gt;
+&lt;p&gt;While working as an intern, I worked at the Center ten hours a week and on top of this work undertook individual study courses on data analysis, visualization, and collaboration in a research lab setting. Both semesters culminated in a capstone paper utilizing Cline Center data in a quantitative reserach paper. I submitted proposals, formulated hypotheses, and conducted the analysis which gave me a solid understanding of the research&lt;/p&gt;
 </description>
     </item>
     
