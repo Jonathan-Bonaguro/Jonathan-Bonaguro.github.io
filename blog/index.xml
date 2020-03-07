@@ -13,10 +13,10 @@
     
     <item>
       <title>The Cline Center for Advanced Social Research</title>
-      <link>/blog/jupyter/</link>
+      <link>/blog/cline_center/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/jupyter/</guid>
+      <guid>/blog/cline_center/</guid>
       <description>&lt;h1 id=&#34;what-is-the-cline-center&#34;&gt;What is the Cline Center?&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;One of the biggest challenges that data scientists, social scientists and humanists face is harnessing the power of raw data. The Cline Center for Advanced Social Research is positioned to expand your research capacities, giving voice to data by providing you with powerful tools to analyze it.
@@ -32,441 +32,75 @@ We’re based at the University of Illinois at Urbana-Champaign, one of the worl
     </item>
     
     <item>
-      <title>A Study of Snail Behavior</title>
-      <link>/blog/snail/</link>
+      <title>Making Friends and Influencing People</title>
+      <link>/blog/senior_thesis/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/snail/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/issues&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of academia:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academia&#34;&gt;Decorate your laptop or journal with an academia sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academia.threadless.com/&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-&lt;p&gt;academia comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
-&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;/blog/snail/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-admin&#34;&gt;academia Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-scripts&#34;&gt;academia Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of academia&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+      <guid>/blog/senior_thesis/</guid>
+      <description>&lt;h1 id=&#34;making-friends-and-influencing-people-the-effect-of-social-media-on-political-knowledge-overconfidence&#34;&gt;Making Friends and Influencing People: The Effect of Social Media on Political Knowledge Overconfidence&lt;/h1&gt;
+&lt;p&gt;During the 2019-2020 academic year I am undertaking the process of writing a senior thesis. In the fall semester, I took part in a Senior Thesis methodology survey, where the undergraduate honors cohort learned the ins and outs of reserach design and began developing our theses. During the spring semester, I developed my research design and am currently waiting on IRB approval to run my survey. Here&amp;rsquo;s a little bit more information about this process.&lt;/p&gt;
+&lt;h2 id=&#34;fall-2019&#34;&gt;Fall 2019&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;PS 495:&lt;/strong&gt; Provides an advanced overview of methodological issues in political science especially identification of research questions and design of research strategies in political science appropriate for a senior thesis. Requires completion of a substantial research proposal.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The 2019-2020 honors cohort spent the fall of 2019 studying research methods and design under the direction of Professor &lt;a href=&#34;https://sites.google.com/site/mswinters1/home&#34;&gt;Matt Winters&lt;/a&gt;. We discussed topics such as the philosophy of science, formulating reserach questions and hypotheses, and the gold standards of reserach design.&lt;/p&gt;
+&lt;p&gt;My research focuses on the effect of social media networks on political knowledge overconfidence. Do our friends inadvertently cause us to think we know more than we do? Although more and more people say that they are using Facebook to gather news, &lt;a href=&#34;&#34;&gt;most users find news while on Facebook for other reasons and don&amp;rsquo;t actually follow a news organization.&lt;/a&gt; It turns out, people see news on Facebook mostly when it is &lt;a href=&#34;10.1177/2053168018816189&#34;&gt;shared by their friends.&lt;/a&gt; Not only do Facebook users mostly see content when it is shared by their friends, the &lt;a href=&#34;10.1111/0022-3816.00033&#34;&gt;friends they trust to share accurate information&lt;/a&gt; can lead a person to be &lt;a href=&#34;10.1177/2053168018816189&#34;&gt;overconfident in their level of political knowledge.&lt;/a&gt; My research asks if the type of friend who shares political news can affect levels of overconfidence.&lt;/p&gt;
+&lt;h2 id=&#34;spring-2020&#34;&gt;Spring 2020&lt;/h2&gt;
+&lt;p&gt;As part of this process, we were asked to locate advisors for our thesis. My advisor is Professor &lt;a href=&#34;https://clinecenter.illinois.edu/people/salthaus&#34;&gt;Scott Althaus&lt;/a&gt;, who&amp;rsquo;s research focuses on political communication. With his guidance, I designed an experiment to test the effect of classes of friends sharing political content and their effect on levels of political knowledge. This reserach is ongoing, and the final thesis will be available in early May. My reserach has also been accepted for presentation at the &lt;a href=&#34;https://undergradresearch.illinois.edu/symposium.html&#34;&gt;Illinois Undergraduate Research Symposium&lt;/a&gt; where I will be presenting a post on April 30, 2020 in the Illini Union. Please reach out before then if you have any questions about my reserach by visiting my &lt;a href=&#34;https://jonathan-bonaguro.github.io/#contact&#34;&gt;contact widget.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>academia: the website builder for Hugo</title>
-      <link>/blog/getting-started/</link>
+      <title>University of Illinois Coursework</title>
+      <link>/blog/coursework/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/issues&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of academia:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academia&#34;&gt;Decorate your laptop or journal with an academia sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academia.threadless.com/&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-&lt;p&gt;academia comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
-&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/blog/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;/blog/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-admin&#34;&gt;academia Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-scripts&#34;&gt;academia Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of academia&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+      <guid>/blog/coursework/</guid>
+      <description>&lt;h1 id=&#34;looking-to-know-a-bit-more-about-my-academic-experience-look-here&#34;&gt;Looking to know a bit more about my academic experience? Look here.&lt;/h1&gt;
+&lt;p&gt;This post contains a list of some of the relevant coursework I&amp;rsquo;ve taken while earning my bachelor&amp;rsquo;s at the University of Illinois. While this is not a complete list, I have unofficial and offical transcripts available upon request. This is simply to give potential employers or collaborators a brief introduction to some of the experience I have. Courses are broken up by subject area by alphabetical order, and university course descriptions are included when provided.&lt;/p&gt;
+&lt;h2 id=&#34;computer-science&#34;&gt;Computer Science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CS 107 Data Science Discovery:&lt;/strong&gt; Data Science Discovery is the intersection of statistics, computation, and real-world relevance. As a project-driven course, students perform hands-on-analysis of real-world datasets to analyze and discover the impact of the data. Throughout each experience, students reflect on the social issues surrounding data analysis such as privacy and design.&lt;/p&gt;
+&lt;h2 id=&#34;geography&#34;&gt;Geography&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;GEOG 379 Introduction to GIS systems:&lt;/strong&gt; Investigates the fundamentals of geographic information science as well as the basic skills in the execution of that theoretical knowledge with industry standard software packages. Student will learn the basics of projections and coordinate systems, how geographic information is stored and manipulated, and the theory and practice behind the production of thematic maps.&lt;/p&gt;
+&lt;h2 id=&#34;information-sciences&#34;&gt;Information Sciences&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IS 457 Introduction to Data Science:&lt;/strong&gt; This course introduces students to data science approaches that have emerged from recent advances in programming and computing technology. They will learn to collect and use data from a variety of sources, including the web, in a modern statistical inference and visualization paradigm. The course will be based in the programming language R, but will also use HTML, regular expressions, basic Unix tools, XML, and SQL. Supervised and unsupervised statistical learning techniques made possible by recent advances in computing power will also be covered.&lt;/p&gt;
+&lt;h2 id=&#34;mathematics&#34;&gt;Mathematics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MATH 241 Calculus III:&lt;/strong&gt; Third course in calculus and analytic geometry including vector analysis: Euclidean space, partial differentiation, multiple integrals, line integrals and surface integrals, the integral theorems of vector calculus.&lt;/p&gt;
+&lt;h2 id=&#34;political-science&#34;&gt;Political Science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;PS 230 Introduction to Political Research:&lt;/strong&gt; Surveys the principles that guide empirical research in political science; emphasizes definition of research problems, principles and practices of measurement, use of data as evidence, and data analysis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS 292 Undergraduate Research Practicum:&lt;/strong&gt; With Professor Scott Althaus. Worked 10 hours a week at the Cline Center for Advanced Social Research contributing to the Rule of Law and Coup d’État Projects. Undertook an independent study with the Data Analytics and Management team on data management and analysis in a research firm setting. Culminated with a term paper utilizing Cline Center data on the effects of interstate war on coup success. &lt;em&gt;Course description by Jonathan Bonaguro&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS 490 Individual Study:&lt;/strong&gt; With Professor Scott Althaus. Worked 10 hours a week at the Cline Center for Advanced Social Research contributing to the expansion of the Coup d’État Project. Undertook an independent study with the Data Analytics and Management team on data management and analysis in a research firm setting. Culminated with a term paper utilizing Cline Center data on the effects of IMF loan programs on regime stability. &lt;em&gt;Course description by Jonathan Bonaguro&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS 495 Senior Honors Seminar:&lt;/strong&gt; Provides an advanced overview of methodological issues in political science especially identification of research questions and design of research strategies in political science appropriate for a senior thesis. Requires completion of a substantial research proposal. Culminated in prospectus entitled “Making Friends and Influencing People: The Effects of Social Media on Political Knowledge Misperceptions”.&lt;/p&gt;
+&lt;h2 id=&#34;statistics&#34;&gt;Statistics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;STAT 200 Statistical Analysis:&lt;/strong&gt; Survey of statistical concepts, data analysis, designed and observational studies and statistical models. Statistical computing using a statistical package such as R or a spreadsheet. Topics to be covered include data summary and visualization, study design, elementary probability, categorical data, comparative experiments, multiple linear regression, analysis of variance, statistical inferences and model diagnostics. May be taken as a first statistics course for quantitatively oriented students, or as a second course to follow a basic concepts course.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;STAT 400 Statistics and Probability I:&lt;/strong&gt; Introduction to mathematical statistics that develops probability as needed; includes the calculus of probability, random variables, expectation, distribution functions, central limit theorem, point estimation, confidence intervals, and hypothesis testing.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/blog/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Jonathan Bonaguro: Photographer for Hire</title>
+      <link>/blog/photography/</link>
+      <pubDate>Sun, 20 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <guid>/blog/photography/</guid>
+      <description>&lt;h1 id=&#34;everyone-has-a-hidden-talent-most-people-dont-know-that-i-work-as-a-freelance-photographer&#34;&gt;Everyone has a hidden talent. Most people don&amp;rsquo;t know that I work as a freelance photographer.&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve shot headshots, concerts, weddings, and studio portraits. For newspapers, I&amp;rsquo;ve covered sports, feature stories, and breaking news. I spent the summer in 2019 traveling across the country with The Cavaliers Drum &amp;amp; Bugle Corps documenting the life of one of the nations most storied and successful drum corps. I&amp;rsquo;ve done a little bit of it all, and I hope to keep expanding.&lt;/p&gt;
+&lt;h2 id=&#34;a-brief-timeline&#34;&gt;A brief timeline&lt;/h2&gt;
+&lt;p&gt;My parents got me my first camera for Christmas in 2015. I had asked for one after experimenting with my parent&amp;rsquo;s Canon Rebel t1i. I thought I would use it a lot, and like a lot of things we try, it turns out I never did. My little Canon 70D sat in a closet for a couple years until the spring of 2018 when a good friend of mine asked me to cover some baseball games for a blog he wrote. My first baseball game was cold and rainy, and I bundled up tight and stuck my camera in a plastic bag to try and protect it. Since that first game, photography has become an integral part of my life and I love the ability to share everyone&amp;rsquo;s story.&lt;/p&gt;
+&lt;p&gt;I spent the first year shooting sports casually for that same blog. At the end of my Junior year of college, I was asked to take over the sports photography department at the campus paper, &lt;a href=&#34;https://dailyillini.com/&#34;&gt;The Daily Illini&lt;/a&gt;. Shortly after, I was asked by the director of the Marching Illini to take over as his Media &amp;amp; Public Relations manager for the 2020 season, serving both as principal photographer and head of media.&lt;/p&gt;
+&lt;h2 id=&#34;what-ive-done&#34;&gt;What I&amp;rsquo;ve done&lt;/h2&gt;
+&lt;h4 id=&#34;editorial&#34;&gt;Editorial&lt;/h4&gt;
+&lt;p&gt;Sports photography is my primary passion. I love the energy and excitement that comes with shooting sports. The challenge of capturing the perfect moment in the heat of the moment is one that every photographer aspires to. For various outlets, I have covered pretty much every collegiate sports including football, basektball, volleyball, baseball, softball, and cross country. I provide high quality, captioned images on tight deadlines to meet the needs of online and print newspapers. I&amp;rsquo;ve covered sports for blogs like The Champaign Room as well as newspapers such as The Daily Illini and The News-Gazette.&lt;/p&gt;
+&lt;p&gt;Although not as frequently, I also cover other editorial photography. I have worked with reporters on feature stories as well as covering breaking news in both Champaign-Urbana and back in my hometown of Naperville, Illinois. Being able to capture images that tell a compelling story of the way the world is and what is going on is my goal. I want readers to be able to feel like they were at an event by conveying strong emotions through my images.&lt;/p&gt;
+&lt;h4 id=&#34;pageantry-arts&#34;&gt;Pageantry Arts&lt;/h4&gt;
+&lt;p&gt;Being a band nerd all my life, I also have a lot of experience shooting bands. After spending three years in the nation&amp;rsquo;s premier college marching band, the Marching Illini, I served as their photographer for the 2020 season. This included spending all of their preseason camp documenting the journey of prospective members, spending game-days documenting the experience of the band from 7:00am rehearsals all the way through their post game concert. I was with them for many events including the Homecoming Parade and Concert, MI in Concert, and the Redbox Bowl in Santa Clara, California. My experience as a performer made me a natural fit for the band, as I took that experience and turned it into my images.&lt;/p&gt;
+&lt;p&gt;I spent the summer of 2019 travling with The Cavaliers Drum &amp;amp; Bugle Corps as their chief photographer. With a team of two other photographers, I set the creative direction of a team that captured dynamic and captivating images for promotional and social media use for a ~$5 million dollar non-profit organization. I told the corps story by becoming nearly an integrated member of the corps. We traveled by tour buses late at night and slept in high school gyms and classrooms. Every day from late May through early August I was telling the story of competitive marching arts through captivating imagry, and I learned a lot about working with a creative team and how to manage and learn from and incorporate feedback.&lt;/p&gt;
+&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+&lt;p&gt;Just like any other photographer, I pride myself on being flexbile. Although my primary work has been in sport and editorial work, I am more than happy to work with anyone on any project! I&amp;rsquo;ve shot portraits, headshots, weddings, and other events. Do you know a person who needs a fresh LinkedIn picture or just some more recent shots? Are you a business lookig to market some products? I&amp;rsquo;m more than happy to talk to you. Visit the &lt;a href=&#34;https://jonathan-bonaguro.github.io/#contact&#34;&gt;contact&lt;/a&gt; portion of my website to connect with me.&lt;/p&gt;
+&lt;h2 id=&#34;follow-your-passions&#34;&gt;Follow your Passions&lt;/h2&gt;
+&lt;p&gt;I love my day job. Working as a researcher in a social science research firm truly is my passion, and I hope someday to earn my Ph. D. and continue work on event data. However, photography will always be a significant portion of my life. Having a hobby that I am passionate about not only makes me a happier, more rounded human being, but I find that it makes me more productive in my day job too.&lt;/p&gt;
+&lt;h2 id=&#34;work-with-me&#34;&gt;Work with me&lt;/h2&gt;
+&lt;p&gt;Do you want to see more? I have a limited selection of my work available on my &lt;a href=&#34;https://www.instagram.com/thewanderingbonaguro/&#34;&gt;Instagram Page&lt;/a&gt;, and I am happy to share more upon request. Again, head over to my &lt;a href=&#34;https://jonathan-bonaguro.github.io/#contact&#34;&gt;contact widget&lt;/a&gt; and connect with me. I hope to have either a dedicated photography website or a more flushed out photography blog on this website soon. Check back soon for updates, and &lt;strong&gt;follow your passions!&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
