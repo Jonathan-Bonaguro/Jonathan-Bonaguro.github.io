@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.65.3" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jonathan Bonaguro">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="STAT 385: One Course to help Synthesize my Expeiences with R The Course University Course Catalog Course Description:
+ Statisticians must be savvy in programming methods useful to the wide variety of analysis that they will be expected to perform. This course provides the foundation for writing and packaging statistical algorithms through the creation of functions and object oriented programming. Fundamental programming techniques and considerations will be emphasized. Students will also create dynamic reports that encapsulate their implemented algorithms.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/blog/stat385/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.28efaa82099e1d59f8a909df089d578c.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/blog/stat385/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Jonathan Bonaguro">
+  <meta property="og:url" content="/blog/stat385/">
+  <meta property="og:title" content="Statistics 385- Statistical Programming Methods | Jonathan Bonaguro">
+  <meta property="og:description" content="STAT 385: One Course to help Synthesize my Expeiences with R The Course University Course Catalog Course Description:
+ Statisticians must be savvy in programming methods useful to the wide variety of analysis that they will be expected to perform. This course provides the foundation for writing and packaging statistical algorithms through the creation of functions and object oriented programming. Fundamental programming techniques and considerations will be emphasized. Students will also create dynamic reports that encapsulate their implemented algorithms."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-03-09T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-03-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Statistics 385- Statistical Programming Methods | Jonathan Bonaguro</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Jonathan Bonaguro</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/Bonaguro_Resume.pdf"><span>Resume</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+    <div class="article-container py-3">
+      <h1 itemprop="name">Statistics 385- Statistical Programming Methods</h1>
+
+      
+
+      
+      
+
+
+
+<meta content="2020-03-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-03-09 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Mar 9, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/r/">R</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/blog/stat385/&amp;text=Statistics%20385-%20Statistical%20Programming%20Methods" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/blog/stat385/&amp;t=Statistics%20385-%20Statistical%20Programming%20Methods" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Statistics%20385-%20Statistical%20Programming%20Methods&amp;body=/blog/stat385/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/blog/stat385/&amp;title=Statistics%20385-%20Statistical%20Programming%20Methods" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+    </div>
+  </div>
+</div>
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="stat-385-one-course-to-help-synthesize-my-expeiences-with-r" class="section level1">
+<h1>STAT 385: One Course to help Synthesize my Expeiences with R</h1>
+<div id="the-course" class="section level2">
+<h2>The Course</h2>
+<p><em>University Course Catalog Course Description:</em></p>
+<blockquote>
+<p>Statisticians must be savvy in programming methods useful to the wide variety of analysis that they will be expected to perform. This course provides the foundation for writing and packaging statistical algorithms through the creation of functions and object oriented programming. Fundamental programming techniques and considerations will be emphasized. Students will also create dynamic reports that encapsulate their implemented algorithms.</p>
+</blockquote>
+<p>This course is instructed by the fantastic <a href="https://hknguyen.org/index.html">Ha Khanh Nguyen</a>, visiting instructor and a data science support specialist for the Department of Statistics.</p>
+</div>
+<div id="my-history-with-r" class="section level2">
+<h2>My History with R</h2>
+<p>I decided to take STAT385 in my final semester at Illinois to help solidify my knowledge and abilities with R. My experience with R started in <a href="https://courses.illinois.edu/schedule/2017/spring/PS/230">PS 230</a> with <a href="http://www.jakebowers.org/">Professor Jake Bowers</a>. We were introduced to a lot of things in R, and took a deep dive very quickly into data wrangling, manipulation, and regression. Frankly, I didn’t learn a ton. I was confused most of the semester, but I loved what I was experiencing. Growing up with a software architect for a father I sort of “rebelled” by deciding to pursue a liberal arts degree, but the second I was introduced to coding I was hooked.</p>
+<p>That summer, I ended up working for Professor Bowers and <a href="http://carawong.org/">Professor Cara Wong</a> assisting with data wrangling and modeling. Fortunately they were very patient with me, because I really was in over my head. I Googled a lot of code and did the best I could. I was soon hired by the <a href="https://clinecenter.illinois.edu/">Cline Center for Advanced Social Reserach</a> and have been working there ever on quantitative social science ver since (read more about my experiences at the Cline Center <a href="https://jonathan-bonaguro.github.io/blog/cline_center/">here</a>. After googling enough code to write a few papers, I decided I needed to more firmly ground myself in the methodology. After taking a few calculus and statistics courses, I felt ready to ground myself in R, which lead me to STAT 385. In the Fall of 2018 I took <a href="https://courses.illinois.edu/schedule/2018/fall/IS/457">IS 457</a>, which blew past all of the general information and went quickly to modeling, visualization, and some more advanced feature of R. This experience showed me that I needed a bit more time with the basics.</p>
+</div>
+</div>
+<div id="what-ive-learned" class="section level1">
+<h1>What I’ve Learned</h1>
+<p>This course has been great for showing me the proper way to do a lot of basic things in R, and reinforcing the concepts so I don’t feel like I have to google simple things like subsetting and data manipulation!</p>
+<p><strong>Important note:</strong> this blog post is <strong>NOT</strong> meant to be a comprehensive introduction to R. This is simply a brief synopsis of what I’ve learned during the first half of the semester in STAT 385. There are a bunch of great resources for learning R, such as <a href="https://rstudio-education.github.io/hopr/">this book</a> by RStudio educator <a href="https://www.linkedin.com/in/garrett-grolemund-49328411/">Garrett Grolemund</a>. For a comprehensive collection of <em>my</em> lecture notes for this course, please visit <a href="https://github.com/Jonathan-Bonaguro/R-GENERAL/tree/master/STAT385">my STAT 385 Github Repository.</a></p>
+<div id="data-types-in-r" class="section level2">
+<h2>Data Types in R</h2>
+<p>I am going to gloss over information regarding the R user interface and basic interaction. This was information I was already familiar with, and plenty of tutorials can be found online. After that introduction, one of the first things we covered was data types that R works with. A lot of this information I already knew, but it was a good refreshed having it all laid out again. We covered:</p>
+<div id="vectors" class="section level4">
+<h4>Vectors</h4>
+<p>Atomic vectors only store one type of data, and the function <code>c()</code> concatenates a vector.</p>
+<pre class="r"><code># Double Vectors
+die &lt;- c(1, 2, 3, 4, 5, 6)
+die
+## [1] 1 2 3 4 5 6
+
+typeof(die)
+## [1] &quot;double&quot;
+
+## Any number is stored as a double vector of length 1
+typeof(4.5)
+## [1] &quot;double&quot;
+
+# Integer vectors denoted by &#39;L&#39;
+my_integer &lt;- c(-1L, 2L, 4L)
+my_integer
+## [1] -1  2  4
+
+typeof(my_integer)
+## [1] &quot;integer&quot;
+
+# Character Vectors
+text &lt;- c(&quot;Hello&quot;, &#39;World&#39;)
+text
+## [1] &quot;Hello&quot; &quot;World&quot;
+
+typeof(text)
+## [1] &quot;character&quot;
+
+# Logical Vectors
+my_logic &lt;- c(TRUE, TRUE, FALSE)
+my_logic
+## [1]  TRUE  TRUE FALSE
+
+typeof(my_logic)
+## [1] &quot;logical&quot;
+
+# Complex Vectors
+my_complex &lt;- complex(real = 1, imaginary = 2)
+my_complex
+## [1] 1+2i
+
+typeof(my_complex)
+## [1] &quot;complex&quot;
+
+# Raw Vectors (bytes of data)
+my_raw &lt;- raw(length = 3)
+my_raw
+## [1] 00 00 00
+
+typeof(my_raw)
+## [1] &quot;raw&quot;</code></pre>
+<p>We also covered indexing items from a vector using <code>[ ]</code>. The iteration starts at 1.</p>
+<pre class="r"><code>die &lt;- c(1, 2, 3, 4, 5, 6)
+
+die[1]
+## [1] 1
+die[4]
+## [1] 4</code></pre>
+</div>
+<div id="we-also-talked-about-lists" class="section level4">
+<h4>We also talked about lists</h4>
+<p>Lists can group R objects such as vectors and other lists in a one dimensional array! We talked about creating lists using <code>list()</code>.</p>
+<pre class="r"><code>my_list &lt;- list(1, &quot;one&quot;, TRUE)
+my_list
+## [[1]]
+## [1] 1
+## 
+## [[2]]
+## [1] &quot;one&quot;
+## 
+## [[3]]
+## [1] TRUE
+
+big_list &lt;- list(1:12, &quot;2020&quot;, list(&quot;january&quot;, 2:8))
+big_list
+## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+## 
+## [[2]]
+## [1] &quot;2020&quot;
+## 
+## [[3]]
+## [[3]][[1]]
+## [1] &quot;january&quot;
+## 
+## [[3]][[2]]
+## [1] 2 3 4 5 6 7 8</code></pre>
+<p>We also talked about how to index lists, using <code>[ ]</code> which returns lists and <code>[[ ]]</code> which can be used to return vectors, and how these items in combination can be used to access any item in a list.</p>
+<pre class="r"><code>big_list[[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+
+big_list[1]
+## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+
+big_list[[3]][[1]]
+## [1] &quot;january&quot;</code></pre>
+</div>
+<div id="we-talked-briefly-about-matrices-and-arrays" class="section level4">
+<h4>We talked briefly about matrices and arrays</h4>
+<p>Matrices store values of the same data type in a two-dimensional array, and arrays are <em>n</em>-dimensional. These are created with the functions <code>matrix()</code> and <code>array()</code> Arguments can be specified using <code>nrow =</code>, <code>ncol =</code>, and <code>byrow = TRUE</code>. We also talked about indexing matrices and arrays using <code>[ , ]</code> for the number of dimensions of the array. For a matrix, the first number is row and the second number is column. Leave one argument blank if you want <strong>every</strong> item in that row or column.</p>
+<pre class="r"><code>m &lt;- matrix(data = die, nrow = 2, byrow = TRUE)
+m
+##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6
+
+m[1, 2]
+## [1] 2
+
+m[2, ]
+## [1] 4 5 6
+
+my_array &lt;- array(data = 1:12, dim = c(2, 2, 3))
+my_array
+## , , 1
+## 
+##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4
+## 
+## , , 2
+## 
+##      [,1] [,2]
+## [1,]    5    7
+## [2,]    6    8
+## 
+## , , 3
+## 
+##      [,1] [,2]
+## [1,]    9   11
+## [2,]   10   12
+
+my_array[ , 1, 1]
+## [1] 1 2</code></pre>
+</div>
+<div id="data-frames" class="section level4">
+<h4>Data Frames</h4>
+<p>Data frames are a list of <strong>vectors of the same length</strong>. We discussed how to make data frames using <code>data.frame()</code>, and how to get information about the dataframe using <code>str()</code>. We also discussed reading data using <code>read.csv()</code> to make dataframes from .csv files either on our machines or that are online.</p>
+<pre class="r"><code>cards &lt;- data.frame(face = c(&quot;ace&quot;, &quot;two&quot;, &quot;six&quot;),
+                    suit = c(&quot;clubs&quot;, &quot;clubs&quot;, &quot;clubs&quot;),
+                    value = c(1, 2, 3))
+cards
+##   face  suit value
+## 1  ace clubs     1
+## 2  two clubs     2
+## 3  six clubs     3
+
+str(cards)
+## &#39;data.frame&#39;:    3 obs. of  3 variables:
+##  $ face : Factor w/ 3 levels &quot;ace&quot;,&quot;six&quot;,&quot;two&quot;: 1 3 2
+##  $ suit : Factor w/ 1 level &quot;clubs&quot;: 1 1 1
+##  $ value: num  1 2 3</code></pre>
+<pre class="r"><code>gpa &lt;- read.csv(&quot;https://raw.githubusercontent.com/wadefagen/datasets/master/gpa/uiuc-gpa-dataset.csv&quot;)
+head(gpa)
+##   Year   Term YearTerm Subject Number                 Course.Title A.  A A..1
+## 1 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  2 13    4
+## 2 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  1  5    9
+## 3 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  7    9
+## 4 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  8    7
+## 5 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  7    4
+## 6 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  1  7    3
+##   B. B B..1 C. C C..1 D. D D..1 F W  Primary.Instructor
+## 1  3 3    2  0 3    1  0 0    0 2 0 Espiritu, Augusto F
+## 2  1 3    1  0 0    1  0 0    0 1 0     Thomas, Merin A
+## 3  3 2    3  0 0    0  0 0    0 2 0     Thomas, Merin A
+## 4  1 4    5  1 0    1  1 0    0 0 1         Lee, Sang S
+## 5  2 5    5  0 2    0  1 0    0 2 0         Lee, Sang S
+## 6  1 3    2  3 3    0  0 0    1 0 0      Kang, Yoonjung</code></pre>
+<p>We also talked about indexing dataframes using <code>[ , ]</code> and either numbers or logical values. For the sake of brevity in this blog posting, I am not going to provide any examples. I have a LOT of course material to cover!</p>
+</div>
+</div>
+<div id="functions-if-else-and-loops" class="section level2">
+<h2>Functions, if else, and loops</h2>
+<div id="functions" class="section level4">
+<h4>Functions</h4>
+<p>Pretty early on, we talked about writing our own functions using this notation: <code>my_function &lt;- function(arguments) {code}</code>. A function includes a name, argument, and code to act on the arguments. These can get quite complex, so here’s an example to sum the value of a roll of two dice:</p>
+<pre class="r"><code>roll_die &lt;- function() {
+  die &lt;- 1:6
+  dice &lt;- sample(x = die, size = 2, replace = TRUE)
+  sum(dice)
+}
+
+roll_die()
+## [1] 10</code></pre>
+<p>You can include arguments to do things like specify the number of dice. To set a default value, make the argument equal to a value in <code>function()</code>. The first function call will sum the roll of a pair of dice as we did not specify the value, but the second function call will sum the rolls of 10 die.</p>
+<pre class="r"><code>roll_dice &lt;- function(num_die = 2) {
+  die &lt;- 1:6
+  dice &lt;- sample(x = die, size = num_die, replace = TRUE)
+  sum(dice)
+}
+
+roll_dice()
+## [1] 7
+
+roll_dice(num_die = 10)
+## [1] 31</code></pre>
+</div>
+<div id="if-and-else-statements" class="section level4">
+<h4><code>if</code> and <code>else</code> statements</h4>
+<p>An <code>if</code> statement is used to tell R when to do something. If a condition is <code>TRUE</code>, then R will enact the body of code.</p>
+<pre class="r"><code>num &lt;- -2
+
+if (num &lt; 0) {
+  num &lt;- num * -1
+}
+
+num
+## [1] 2</code></pre>
+<p>If the condition is not satisfied, nothing happens.</p>
+<pre class="r"><code>num &lt;- 4
+
+if (num &lt; 0) {
+  num &lt;- num * -1
+}
+
+num
+## [1] 4</code></pre>
+<p><code>else</code> statements are used for when a condition is <code>FALSE</code>.</p>
+<pre class="r"><code>a &lt;- 3.15
+
+decimal &lt;- a - trunc(a)
+decimal
+## [1] 0.15
+
+if (decimal &gt;= 0.5) {
+  a &lt;- trunc(a) + 1
+} else {
+  a &lt;- trunc(a)
+}
+
+a
+## [1] 3</code></pre>
+</div>
+<div id="loops" class="section level4">
+<h4>Loops</h4>
+<p>There are a few different types of loops in R. <code>for</code> loops repeats a chunk of code, once for each element in the input.</p>
+<pre class="r"><code>for (value in c(&quot;My&quot;, &quot;second&quot;, &quot;for&quot;, &quot;loop&quot;)) {
+  print(value)
+}
+## [1] &quot;My&quot;
+## [1] &quot;second&quot;
+## [1] &quot;for&quot;
+## [1] &quot;loop&quot;</code></pre>
+<p>A <code>while</code> loop executes code while the condition remains true. For example:</p>
+<pre class="r"><code>cash &lt;- 20
+n &lt;- 0
+
+while (cash &gt; 0) {
+  cash &lt;- cash - 1
+  n &lt;- n + 1
+}
+
+n
+## [1] 20</code></pre>
+<p>A <code>repeat</code> loop executes until it hits a <code>break</code> statement or you tell it stop by hitting <code>esc</code>. Again, for brevity, no example is included. However, examples can be found in my STAT385 lecture notes on <a href="https://github.com/Jonathan-Bonaguro/R-GENERAL/tree/master/STAT385/Lecture%20Notes">my Github.</a>.</p>
+</div>
+</div>
+<div id="vectorized-code" class="section level2">
+<h2>Vectorized Code</h2>
+<p>One of the benefits of R is using logical tests, subsetting, and element-wise execution to speed up code. We can vectorize loops to make them run faster. Here’s an example:</p>
+<pre class="r"><code>abs_loop &lt;- function(vec){
+  for (i in 1:length(vec)) {
+    if (vec[i] &lt; 0) {
+      vec[i] &lt;- -vec[i]
+    }
+  }
+  vec
+}
+
+abs_vectorized &lt;- function(vec){
+  negs &lt;- vec &lt; 0
+  vec[negs] &lt;- vec[negs] * -1
+  vec
+}
+
+long &lt;- rep(c(-1, 1), 5000000)
+
+system.time(abs_loop(long))
+##    user  system elapsed 
+##   0.620   0.025   0.654
+
+system.time(abs_vectorized(long))
+##    user  system elapsed 
+##   0.251   0.047   0.311</code></pre>
+<p>When we time the execution, the vectorized function is <strong>much</strong> faster. These results get amplified at scale!</p>
+</div>
+<div id="version-control" class="section level2">
+<h2>Version Control</h2>
+<p>After learning about working with base R, we went into a few week long exploration into version control using Git, Github, and RMarkdown to present results. I do not feel qualified to try and explain Git and Github: although I am comfortable with them, I find it difficult to explain, especially through written text. The course resource we is <a href="https://happygitwithr.com/">linked here</a>, and I believe presents one of the best overviews of integrating Git and Github.</p>
+<p><strong>Note:</strong> I was experienced with Git and Github before coming into this class and have a lot of material, both in R and Python, on <a href="https://github.com/Jonathan-Bonaguro">my Github Page.</a></p>
+</div>
+<div id="r-markdown-and-blogdown" class="section level2">
+<h2>R Markdown and <code>blogdown</code></h2>
+<p>Next, we covered creating useful reports with integrated code using R Markdown, which allows us to create formatted reports with integrated code that are easy to present and share with colleagues. This document that you are currently reading was completely written and formatted in R Markdown! For a great overview and tutorial, please see <a href="https://daviddalpiaz.github.io/stat3202-sp19//lab/lab-01-assign.html">this tutorial</a> by <a href="https://daviddalpiaz.org/">Professor David Dalpiaz</a>. It is a great introduction to using R Markdown to integrate code and format reports!</p>
+<p>This entir website is created using an R package called <code>blogdown</code>. It allows for the creation of formatted websites using Hugo packages and modifications. It is incredibly powerful, but slightly complicated. Once you are familiar with the system, however, you are able to build fantastic personal and project websites. For the best introduciton and explanation, please visit <a href="https://bookdown.org/yihui/blogdown/">this manual by the creator of blogdown!</a></p>
+</div>
+</div>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/r-markdown/">R Markdown</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/">Jonathan Bonaguro</a></h5>
+      <h6 class="card-subtitle">Undergraduate</h6>
+      <p class="card-text" itemprop="description">I am an undergraduate student interested in the intersections of social science and data science currently seeking full time employment.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.instagram.com/thewanderingbonaguro/" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/jonathan-bonaguro/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/Jonathan-Bonaguro" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.281fa180ccfa1769ea3c7dd430814861.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p class="powered-by">
+          <a href="/privacy/">Privacy Policy</a>
+        </p>
+        
+        <p>
+          
+          Powered by
+          <a href="https://themefisher.com" target="_blank" rel="noopener">themefisher</a> for
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/thewanderingbonaguro/" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/jonathan-bonaguro/" target="_blank" rel="noopener" title="Connect with Me"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/Jonathan-Bonaguro/" target="_blank" rel="noopener" title="Find my Code"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.strava.com/athletes/49858728" target="_blank" rel="noopener" title="Follow my Cycling"><i class="fas fa-strava" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

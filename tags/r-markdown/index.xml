@@ -6,57 +6,342 @@
     <description>Recent content in R Markdown on Jonathan Bonaguro</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/blog/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Statistics 385- Statistical Programming Methods</title>
+      <link>/blog/stat385/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <guid>/blog/stat385/</guid>
       <description>
 
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;stat-385-one-course-to-help-synthesize-my-expeiences-with-r&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;STAT 385: One Course to help Synthesize my Expeiences with R&lt;/h1&gt;
+&lt;div id=&#34;the-course&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Course&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;University Course Catalog Course Description:&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Statisticians must be savvy in programming methods useful to the wide variety of analysis that they will be expected to perform. This course provides the foundation for writing and packaging statistical algorithms through the creation of functions and object oriented programming. Fundamental programming techniques and considerations will be emphasized. Students will also create dynamic reports that encapsulate their implemented algorithms.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This course is instructed by the fantastic &lt;a href=&#34;https://hknguyen.org/index.html&#34;&gt;Ha Khanh Nguyen&lt;/a&gt;, visiting instructor and a data science support specialist for the Department of Statistics.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
+&lt;div id=&#34;my-history-with-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;My History with R&lt;/h2&gt;
+&lt;p&gt;I decided to take STAT385 in my final semester at Illinois to help solidify my knowledge and abilities with R. My experience with R started in &lt;a href=&#34;https://courses.illinois.edu/schedule/2017/spring/PS/230&#34;&gt;PS 230&lt;/a&gt; with &lt;a href=&#34;http://www.jakebowers.org/&#34;&gt;Professor Jake Bowers&lt;/a&gt;. We were introduced to a lot of things in R, and took a deep dive very quickly into data wrangling, manipulation, and regression. Frankly, I didn’t learn a ton. I was confused most of the semester, but I loved what I was experiencing. Growing up with a software architect for a father I sort of “rebelled” by deciding to pursue a liberal arts degree, but the second I was introduced to coding I was hooked.&lt;/p&gt;
+&lt;p&gt;That summer, I ended up working for Professor Bowers and &lt;a href=&#34;http://carawong.org/&#34;&gt;Professor Cara Wong&lt;/a&gt; assisting with data wrangling and modeling. Fortunately they were very patient with me, because I really was in over my head. I Googled a lot of code and did the best I could. I was soon hired by the &lt;a href=&#34;https://clinecenter.illinois.edu/&#34;&gt;Cline Center for Advanced Social Reserach&lt;/a&gt; and have been working there ever on quantitative social science ver since (read more about my experiences at the Cline Center &lt;a href=&#34;https://jonathan-bonaguro.github.io/blog/cline_center/&#34;&gt;here&lt;/a&gt;. After googling enough code to write a few papers, I decided I needed to more firmly ground myself in the methodology. After taking a few calculus and statistics courses, I felt ready to ground myself in R, which lead me to STAT 385. In the Fall of 2018 I took &lt;a href=&#34;https://courses.illinois.edu/schedule/2018/fall/IS/457&#34;&gt;IS 457&lt;/a&gt;, which blew past all of the general information and went quickly to modeling, visualization, and some more advanced feature of R. This experience showed me that I needed a bit more time with the basics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-ive-learned&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;What I’ve Learned&lt;/h1&gt;
+&lt;p&gt;This course has been great for showing me the proper way to do a lot of basic things in R, and reinforcing the concepts so I don’t feel like I have to google simple things like subsetting and data manipulation!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important note:&lt;/strong&gt; this blog post is &lt;strong&gt;NOT&lt;/strong&gt; meant to be a comprehensive introduction to R. This is simply a brief synopsis of what I’ve learned during the first half of the semester in STAT 385. There are a bunch of great resources for learning R, such as &lt;a href=&#34;https://rstudio-education.github.io/hopr/&#34;&gt;this book&lt;/a&gt; by RStudio educator &lt;a href=&#34;https://www.linkedin.com/in/garrett-grolemund-49328411/&#34;&gt;Garrett Grolemund&lt;/a&gt;. For a comprehensive collection of &lt;em&gt;my&lt;/em&gt; lecture notes for this course, please visit &lt;a href=&#34;https://github.com/Jonathan-Bonaguro/R-GENERAL/tree/master/STAT385&#34;&gt;my STAT 385 Github Repository.&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;data-types-in-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data Types in R&lt;/h2&gt;
+&lt;p&gt;I am going to gloss over information regarding the R user interface and basic interaction. This was information I was already familiar with, and plenty of tutorials can be found online. After that introduction, one of the first things we covered was data types that R works with. A lot of this information I already knew, but it was a good refreshed having it all laid out again. We covered:&lt;/p&gt;
+&lt;div id=&#34;vectors&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Vectors&lt;/h4&gt;
+&lt;p&gt;Atomic vectors only store one type of data, and the function &lt;code&gt;c()&lt;/code&gt; concatenates a vector.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Double Vectors
+die &amp;lt;- c(1, 2, 3, 4, 5, 6)
+die
+## [1] 1 2 3 4 5 6
+
+typeof(die)
+## [1] &amp;quot;double&amp;quot;
+
+## Any number is stored as a double vector of length 1
+typeof(4.5)
+## [1] &amp;quot;double&amp;quot;
+
+# Integer vectors denoted by &amp;#39;L&amp;#39;
+my_integer &amp;lt;- c(-1L, 2L, 4L)
+my_integer
+## [1] -1  2  4
+
+typeof(my_integer)
+## [1] &amp;quot;integer&amp;quot;
+
+# Character Vectors
+text &amp;lt;- c(&amp;quot;Hello&amp;quot;, &amp;#39;World&amp;#39;)
+text
+## [1] &amp;quot;Hello&amp;quot; &amp;quot;World&amp;quot;
+
+typeof(text)
+## [1] &amp;quot;character&amp;quot;
+
+# Logical Vectors
+my_logic &amp;lt;- c(TRUE, TRUE, FALSE)
+my_logic
+## [1]  TRUE  TRUE FALSE
+
+typeof(my_logic)
+## [1] &amp;quot;logical&amp;quot;
+
+# Complex Vectors
+my_complex &amp;lt;- complex(real = 1, imaginary = 2)
+my_complex
+## [1] 1+2i
+
+typeof(my_complex)
+## [1] &amp;quot;complex&amp;quot;
+
+# Raw Vectors (bytes of data)
+my_raw &amp;lt;- raw(length = 3)
+my_raw
+## [1] 00 00 00
+
+typeof(my_raw)
+## [1] &amp;quot;raw&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We also covered indexing items from a vector using &lt;code&gt;[ ]&lt;/code&gt;. The iteration starts at 1.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;die &amp;lt;- c(1, 2, 3, 4, 5, 6)
+
+die[1]
+## [1] 1
+die[4]
+## [1] 4&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;we-also-talked-about-lists&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;We also talked about lists&lt;/h4&gt;
+&lt;p&gt;Lists can group R objects such as vectors and other lists in a one dimensional array! We talked about creating lists using &lt;code&gt;list()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_list &amp;lt;- list(1, &amp;quot;one&amp;quot;, TRUE)
+my_list
+## [[1]]
+## [1] 1
+## 
+## [[2]]
+## [1] &amp;quot;one&amp;quot;
+## 
+## [[3]]
+## [1] TRUE
+
+big_list &amp;lt;- list(1:12, &amp;quot;2020&amp;quot;, list(&amp;quot;january&amp;quot;, 2:8))
+big_list
+## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+## 
+## [[2]]
+## [1] &amp;quot;2020&amp;quot;
+## 
+## [[3]]
+## [[3]][[1]]
+## [1] &amp;quot;january&amp;quot;
+## 
+## [[3]][[2]]
+## [1] 2 3 4 5 6 7 8&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We also talked about how to index lists, using &lt;code&gt;[ ]&lt;/code&gt; which returns lists and &lt;code&gt;[[ ]]&lt;/code&gt; which can be used to return vectors, and how these items in combination can be used to access any item in a list.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;big_list[[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+
+big_list[1]
+## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+
+big_list[[3]][[1]]
+## [1] &amp;quot;january&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;we-talked-briefly-about-matrices-and-arrays&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;We talked briefly about matrices and arrays&lt;/h4&gt;
+&lt;p&gt;Matrices store values of the same data type in a two-dimensional array, and arrays are &lt;em&gt;n&lt;/em&gt;-dimensional. These are created with the functions &lt;code&gt;matrix()&lt;/code&gt; and &lt;code&gt;array()&lt;/code&gt; Arguments can be specified using &lt;code&gt;nrow =&lt;/code&gt;, &lt;code&gt;ncol =&lt;/code&gt;, and &lt;code&gt;byrow = TRUE&lt;/code&gt;. We also talked about indexing matrices and arrays using &lt;code&gt;[ , ]&lt;/code&gt; for the number of dimensions of the array. For a matrix, the first number is row and the second number is column. Leave one argument blank if you want &lt;strong&gt;every&lt;/strong&gt; item in that row or column.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;m &amp;lt;- matrix(data = die, nrow = 2, byrow = TRUE)
+m
+##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6
+
+m[1, 2]
+## [1] 2
+
+m[2, ]
+## [1] 4 5 6
+
+my_array &amp;lt;- array(data = 1:12, dim = c(2, 2, 3))
+my_array
+## , , 1
+## 
+##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4
+## 
+## , , 2
+## 
+##      [,1] [,2]
+## [1,]    5    7
+## [2,]    6    8
+## 
+## , , 3
+## 
+##      [,1] [,2]
+## [1,]    9   11
+## [2,]   10   12
+
+my_array[ , 1, 1]
+## [1] 1 2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-frames&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Data Frames&lt;/h4&gt;
+&lt;p&gt;Data frames are a list of &lt;strong&gt;vectors of the same length&lt;/strong&gt;. We discussed how to make data frames using &lt;code&gt;data.frame()&lt;/code&gt;, and how to get information about the dataframe using &lt;code&gt;str()&lt;/code&gt;. We also discussed reading data using &lt;code&gt;read.csv()&lt;/code&gt; to make dataframes from .csv files either on our machines or that are online.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cards &amp;lt;- data.frame(face = c(&amp;quot;ace&amp;quot;, &amp;quot;two&amp;quot;, &amp;quot;six&amp;quot;),
+                    suit = c(&amp;quot;clubs&amp;quot;, &amp;quot;clubs&amp;quot;, &amp;quot;clubs&amp;quot;),
+                    value = c(1, 2, 3))
+cards
+##   face  suit value
+## 1  ace clubs     1
+## 2  two clubs     2
+## 3  six clubs     3
+
+str(cards)
+## &amp;#39;data.frame&amp;#39;:    3 obs. of  3 variables:
+##  $ face : Factor w/ 3 levels &amp;quot;ace&amp;quot;,&amp;quot;six&amp;quot;,&amp;quot;two&amp;quot;: 1 3 2
+##  $ suit : Factor w/ 1 level &amp;quot;clubs&amp;quot;: 1 1 1
+##  $ value: num  1 2 3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;gpa &amp;lt;- read.csv(&amp;quot;https://raw.githubusercontent.com/wadefagen/datasets/master/gpa/uiuc-gpa-dataset.csv&amp;quot;)
+head(gpa)
+##   Year   Term YearTerm Subject Number                 Course.Title A.  A A..1
+## 1 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  2 13    4
+## 2 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  1  5    9
+## 3 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  7    9
+## 4 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  8    7
+## 5 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  0  7    4
+## 6 2019 Spring  2019-sp     AAS    100 Intro Asian American Studies  1  7    3
+##   B. B B..1 C. C C..1 D. D D..1 F W  Primary.Instructor
+## 1  3 3    2  0 3    1  0 0    0 2 0 Espiritu, Augusto F
+## 2  1 3    1  0 0    1  0 0    0 1 0     Thomas, Merin A
+## 3  3 2    3  0 0    0  0 0    0 2 0     Thomas, Merin A
+## 4  1 4    5  1 0    1  1 0    0 0 1         Lee, Sang S
+## 5  2 5    5  0 2    0  1 0    0 2 0         Lee, Sang S
+## 6  1 3    2  3 3    0  0 0    1 0 0      Kang, Yoonjung&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We also talked about indexing dataframes using &lt;code&gt;[ , ]&lt;/code&gt; and either numbers or logical values. For the sake of brevity in this blog posting, I am not going to provide any examples. I have a LOT of course material to cover!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions-if-else-and-loops&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Functions, if else, and loops&lt;/h2&gt;
+&lt;div id=&#34;functions&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Functions&lt;/h4&gt;
+&lt;p&gt;Pretty early on, we talked about writing our own functions using this notation: &lt;code&gt;my_function &amp;lt;- function(arguments) {code}&lt;/code&gt;. A function includes a name, argument, and code to act on the arguments. These can get quite complex, so here’s an example to sum the value of a roll of two dice:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roll_die &amp;lt;- function() {
+  die &amp;lt;- 1:6
+  dice &amp;lt;- sample(x = die, size = 2, replace = TRUE)
+  sum(dice)
+}
+
+roll_die()
+## [1] 10&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can include arguments to do things like specify the number of dice. To set a default value, make the argument equal to a value in &lt;code&gt;function()&lt;/code&gt;. The first function call will sum the roll of a pair of dice as we did not specify the value, but the second function call will sum the rolls of 10 die.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;roll_dice &amp;lt;- function(num_die = 2) {
+  die &amp;lt;- 1:6
+  dice &amp;lt;- sample(x = die, size = num_die, replace = TRUE)
+  sum(dice)
+}
+
+roll_dice()
+## [1] 7
+
+roll_dice(num_die = 10)
+## [1] 31&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;if-and-else-statements&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;if&lt;/code&gt; and &lt;code&gt;else&lt;/code&gt; statements&lt;/h4&gt;
+&lt;p&gt;An &lt;code&gt;if&lt;/code&gt; statement is used to tell R when to do something. If a condition is &lt;code&gt;TRUE&lt;/code&gt;, then R will enact the body of code.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;num &amp;lt;- -2
+
+if (num &amp;lt; 0) {
+  num &amp;lt;- num * -1
+}
+
+num
+## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the condition is not satisfied, nothing happens.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;num &amp;lt;- 4
+
+if (num &amp;lt; 0) {
+  num &amp;lt;- num * -1
+}
+
+num
+## [1] 4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;else&lt;/code&gt; statements are used for when a condition is &lt;code&gt;FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;a &amp;lt;- 3.15
+
+decimal &amp;lt;- a - trunc(a)
+decimal
+## [1] 0.15
+
+if (decimal &amp;gt;= 0.5) {
+  a &amp;lt;- trunc(a) + 1
+} else {
+  a &amp;lt;- trunc(a)
+}
+
+a
+## [1] 3&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;loops&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Loops&lt;/h4&gt;
+&lt;p&gt;There are a few different types of loops in R. &lt;code&gt;for&lt;/code&gt; loops repeats a chunk of code, once for each element in the input.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;for (value in c(&amp;quot;My&amp;quot;, &amp;quot;second&amp;quot;, &amp;quot;for&amp;quot;, &amp;quot;loop&amp;quot;)) {
+  print(value)
+}
+## [1] &amp;quot;My&amp;quot;
+## [1] &amp;quot;second&amp;quot;
+## [1] &amp;quot;for&amp;quot;
+## [1] &amp;quot;loop&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A &lt;code&gt;while&lt;/code&gt; loop executes code while the condition remains true. For example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cash &amp;lt;- 20
+n &amp;lt;- 0
+
+while (cash &amp;gt; 0) {
+  cash &amp;lt;- cash - 1
+  n &amp;lt;- n + 1
+}
+
+n
+## [1] 20&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A &lt;code&gt;repeat&lt;/code&gt; loop executes until it hits a &lt;code&gt;break&lt;/code&gt; statement or you tell it stop by hitting &lt;code&gt;esc&lt;/code&gt;. Again, for brevity, no example is included. However, examples can be found in my STAT385 lecture notes on &lt;a href=&#34;https://github.com/Jonathan-Bonaguro/R-GENERAL/tree/master/STAT385/Lecture%20Notes&#34;&gt;my Github.&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;vectorized-code&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Vectorized Code&lt;/h2&gt;
+&lt;p&gt;One of the benefits of R is using logical tests, subsetting, and element-wise execution to speed up code. We can vectorize loops to make them run faster. Here’s an example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;abs_loop &amp;lt;- function(vec){
+  for (i in 1:length(vec)) {
+    if (vec[i] &amp;lt; 0) {
+      vec[i] &amp;lt;- -vec[i]
+    }
+  }
+  vec
+}
+
+abs_vectorized &amp;lt;- function(vec){
+  negs &amp;lt;- vec &amp;lt; 0
+  vec[negs] &amp;lt;- vec[negs] * -1
+  vec
+}
+
+long &amp;lt;- rep(c(-1, 1), 5000000)
+
+system.time(abs_loop(long))
+##    user  system elapsed 
+##   0.620   0.025   0.654
+
+system.time(abs_vectorized(long))
+##    user  system elapsed 
+##   0.251   0.047   0.311&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When we time the execution, the vectorized function is &lt;strong&gt;much&lt;/strong&gt; faster. These results get amplified at scale!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;version-control&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Version Control&lt;/h2&gt;
+&lt;p&gt;After learning about working with base R, we went into a few week long exploration into version control using Git, Github, and RMarkdown to present results. I do not feel qualified to try and explain Git and Github: although I am comfortable with them, I find it difficult to explain, especially through written text. The course resource we is &lt;a href=&#34;https://happygitwithr.com/&#34;&gt;linked here&lt;/a&gt;, and I believe presents one of the best overviews of integrating Git and Github.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I was experienced with Git and Github before coming into this class and have a lot of material, both in R and Python, on &lt;a href=&#34;https://github.com/Jonathan-Bonaguro&#34;&gt;my Github Page.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-markdown-and-blogdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Markdown and &lt;code&gt;blogdown&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Next, we covered creating useful reports with integrated code using R Markdown, which allows us to create formatted reports with integrated code that are easy to present and share with colleagues. This document that you are currently reading was completely written and formatted in R Markdown! For a great overview and tutorial, please see &lt;a href=&#34;https://daviddalpiaz.github.io/stat3202-sp19//lab/lab-01-assign.html&#34;&gt;this tutorial&lt;/a&gt; by &lt;a href=&#34;https://daviddalpiaz.org/&#34;&gt;Professor David Dalpiaz&lt;/a&gt;. It is a great introduction to using R Markdown to integrate code and format reports!&lt;/p&gt;
+&lt;p&gt;This entir website is created using an R package called &lt;code&gt;blogdown&lt;/code&gt;. It allows for the creation of formatted websites using Hugo packages and modifications. It is incredibly powerful, but slightly complicated. Once you are familiar with the system, however, you are able to build fantastic personal and project websites. For the best introduciton and explanation, please visit &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;this manual by the creator of blogdown!&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
